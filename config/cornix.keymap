@@ -211,7 +211,7 @@
 
             bindings = <
 &kp TILDE  &kp N1    &kp N2  &kp N3  &kp SLASH  &kp LS(STAR)                  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)      &kp LS(RPAR)       &kp LS(UNDER)
-&kp TAB    &kp N4    &kp N5  &kp N6  &kp MINUS  &kp MINUS                     &kp EQUAL      &kp COLON     &kp SQT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
+&kp TAB    &kp N4    &kp N5  &kp N6  &kp MINUS  &kp MINUS                     &kp EQUAL      &kp LS(SEMI)  &kp SQT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
 &kp LSHFT  &kp N7    &kp N8  &kp N9  &kp EQUAL  &kp LS(PLUS)  &trans  &trans  &kp TAB        &kp INS       &kp COMMA     &kp DOT           &kp UP             &kp LS(FSLH)
 &kp LGUI   &kp LALT  &kp N0  &trans  &trans     &kp SPACE                     &kp RET        &trans        &trans        &kp LEFT          &kp DOWN           &kp RIGHT
             >;
