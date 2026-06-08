@@ -24,8 +24,7 @@ manifest:
     #  clone-depth: 1
     - name: zmk-dongle-display
       remote: hitsmaxft
-      revision: zephyr4
-      clone-depth: 1
+      revision: 8e8d618aefbeb6dcaeb0f539b35b9530d783fbfa  # pinned: zephyr4 branch as of 2026-03-02 (matches pinned zmk; later commits use a symbol the 3/2 zmk lacks)
     #- name: zmk-dongle-screen
     #  remote: janpfischer
     #  revision: main
