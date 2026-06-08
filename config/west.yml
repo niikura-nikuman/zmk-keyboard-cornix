@@ -11,8 +11,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
-      clone-depth: 1
+      revision: 27afcb11efff6345d0ceb875e85c2de0673123f6  # pinned: zmk main as of 2026-03-02 (firmware2 build); stops main-drift breakage
       import:
         file: app/west.yml
     - name: zmk-helpers
