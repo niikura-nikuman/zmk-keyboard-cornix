@@ -32,6 +32,9 @@ CONFIG_CLOCK_CONTROL_NRF_K32SRC_RC=y
 CONFIG_ZMK_USB=n
 CONFIG_ZMK_BLE=y
 
+# 增加键盘的 BLE 无线电的发射功率，用解决延迟和左右通讯不佳的问题
+# (peripheral 右にも追加: ドングルとの上り通信を強化し頻繁な切断を解消)
+CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
 
 CONFIG_INPUT=y
 
