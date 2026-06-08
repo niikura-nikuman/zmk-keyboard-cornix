@@ -17,19 +17,16 @@ manifest:
         file: app/west.yml
     - name: zmk-helpers
       remote: urob
-      revision: main
+      revision: main  # header-only macros; left on main (stable, backward-compatible)
       clone-depth: 1
     - name: zmk-rgbled-widget
       remote: hitsmaxft
-      revision: main
-      clone-depth: 1
+      revision: f1a8be56d37b88169fff6afc87fb92ad3bc53634  # pinned: v2.6.8-era (2025-08-27)
     - name: zmk-dongle-display
       remote: hitsmaxft
-      revision: main
-      clone-depth: 1
+      revision: 6682adc40247dd743f33d57959630fb5249f3ae7  # pinned: v2.6.8-era (2025-12-08)
     - name: zmk-dongle-screen
       remote: janpfischer
-      revision: main
-      clone-depth: 1
+      revision: 79d872fa1955ff0159c76ab725e35fd1c01c8ffb  # pinned: v2.6.8-era (2025-08-31)
   self:
     path: config
