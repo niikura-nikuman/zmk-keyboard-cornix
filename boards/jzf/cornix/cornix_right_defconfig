@@ -43,4 +43,8 @@ CONFIG_INPUT=y
 CONFIG_EC11=y
 CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
 
+# split接続を粘り強く: 子機の応答間引き30->10(交信3倍で干渉に強く), 見切り4s->8s(瞬断を切断にしない)
+CONFIG_ZMK_SPLIT_BLE_PREF_LATENCY=10
+CONFIG_ZMK_SPLIT_BLE_PREF_TIMEOUT=800
+
 # vim: set ft=kconfig:
