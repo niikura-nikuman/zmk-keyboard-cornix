@@ -233,8 +233,8 @@
             bindings = <
 &kp TILDE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                  &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(UNDER)
 &kp TAB    &none         &kp LBKT    &kp RBKT       &kp LBRC      &kp RBRC                       &kp EQUAL      &kp LS(COLON)  &kp SQT       &kp LBKT      &kp RBKT      &kp BSPC
-&kp LSHFT  &none         &kp RBKT    &kp RPAR       &kp PIPE      &kp BSLH       &trans  &trans  &kp FSLH       &kp QUESTION   &kp COMMA     &kp DOT       &kp F22       &kp LS(PIPE)
-&kp LGUI   &kp LALT      &kp LCTRL   &trans         &trans        &kp SPACE                      &kp ENTER      &trans         &trans        &kp F19       &kp F20       &kp F21
+&kp LSHFT  &none         &kp RBKT    &kp RPAR       &kp PIPE      &kp BSLH       &trans  &trans  &kp FSLH       &kp QUESTION   &kp COMMA     &kp DOT       &kp F18       &kp LS(PIPE)
+&kp LGUI   &kp LALT      &kp LCTRL   &trans         &trans        &kp SPACE                      &kp ENTER      &trans         &trans        &kp F13       &kp F14       &kp F15
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
